@@ -1,0 +1,40 @@
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.product_card{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 12px;
+    text-align: center;
+    padding: 20px;
+    
+}
+.sp1, .sp2, .sp3{
+    margin: 10px;
+}
+
+.product_image{
+    width: 150px;
+    border-radius: 10px;
+}
+.product_price{
+    font-size: 20px;
+
+}
+.product_button{
+    background-color: #ff5722;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.product_button:hover{
+    background-color: rgb(92, 92, 198);
+    color: white;
+
+}
