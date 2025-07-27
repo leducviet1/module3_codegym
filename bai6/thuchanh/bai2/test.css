@@ -38,12 +38,12 @@ ul li {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease;
 }
-ul li p{
-     font-family: Arial, sans-serif;
+ul li p {
+  font-family: Arial, sans-serif;
 }
-ul li:hover{
-    cursor: pointer;
-     transform: scale(1.03);
+ul li:hover {
+  cursor: pointer;
+  transform: scale(1.03);
 }
 img {
   width: 250px;
@@ -55,5 +55,20 @@ img {
 .name_dishes {
   font-size: larger;
   font-weight: 700;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
+}
+.buy-btn {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+  background-color: #e65500;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
 }
